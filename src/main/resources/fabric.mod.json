@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "allcooked",
+  "version": "${version}",
+
+  "name": "All Cooked Foods",
+  "description": "This makes all the foods Cookable",
+  "authors": [
+    "VoidyCD"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/allcooked/Cake.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "voidy.all.cooked.foods"
+    ]
+  },
+  "mixins": [
+    "allcooked.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

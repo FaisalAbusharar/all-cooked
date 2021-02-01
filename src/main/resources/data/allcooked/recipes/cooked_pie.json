@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+      "item": "minecraft:pumpkin_pie"
+    },
+    "result": "allcooked:cooked_pie",
+    "experience": 1.35,
+    "cookingtime": 200
+  }
